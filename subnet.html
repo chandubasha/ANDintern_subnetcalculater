@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Subnet Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Subnet Calculator</h1>
+        <label for="ipAddress">Enter IP Address:</label>
+        <input type="text" id="ipAddress" placeholder="Enter IP Address">
+        <label for="subnetMask">Enter Subnet Mask:</label>
+        <input type="text" id="subnetMask" placeholder="Enter Subnet Mask">
+        <button onclick="calculate()">Calculate</button>
+        <h2>Result:</h2>
+        <div id="result"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

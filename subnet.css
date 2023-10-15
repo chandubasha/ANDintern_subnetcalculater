@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: black;
+}
+
+.container {
+    text-align: center;
+    background-color: aquamarine;
+}
+
+input, button {
+    margin: 10px;
+    padding: 5px;
+}
+
+button {
+    cursor: pointer;
+    background-color: rgb(17, 240, 17);
+    border-radius: 13%;
+}
+button:hover{
+    background-color: rgb(22, 131, 22);
+    box-shadow: 0ch;
+}
+h1{
+    text-decoration: underline;
+    
+}
+.container input{
+    text-align: right;
+}
